@@ -2,9 +2,7 @@
 dependency:
   name: galaxy
 driver:
-  name: gce
-  provider:
-    name: virtualbox
+  name: gce  
 lint:
   name: yamllint
 platforms:
