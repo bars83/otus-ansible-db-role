@@ -1,5 +1,6 @@
 DB role
 =========
+[![Build Status](https://travis-ci.org/bars83/otus-ansible-db-role.svg?branch=master)](https://travis-ci.org/bars83/otus-ansible-db-role)
 
 A brief description of the role goes here.
 
