@@ -2,16 +2,16 @@
 dependency:
   name: galaxy
 driver:
-  name: vagrant
+  name: gce
   provider:
     name: virtualbox
 lint:
   name: yamllint
 platforms:
-  - name: instance
-    box: ubuntu/xenial64
-    provider_raw_config_args:
-    - "customize [ 'modifyvm', :id, '--uartmode1', 'disconnected' ]"
+  - name: instance-travis
+    zone: us-central1-c
+    machine_type: f1-micro
+    image: ubuntu-1604-xenial-v20190628
 provisioner:
   name: ansible
   log: true
