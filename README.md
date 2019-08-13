@@ -2,7 +2,7 @@ DB role
 =========
 [![Build Status](https://travis-ci.com/bars83/otus-ansible-db-role.svg?branch=master)](https://travis-ci.com/bars83/otus-ansible-db-role)
 
-A brief description of the role goes here.
+* Add Slack intergation
 
 Requirements
 ------------
