@@ -1,0 +1,5 @@
+credentials.json
+google_compute_engine
+*.pub
+*.tar
+*.log
